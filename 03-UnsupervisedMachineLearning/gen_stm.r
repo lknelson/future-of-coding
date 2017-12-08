@@ -46,6 +46,7 @@ mod.20 <- storage$out[[2]] # most coherent
 mod.30 <- storage$out[[3]] 
 mod.40 <- storage$out[[4]] # most exclusive 
 mod.50 <- storage$out[[5]]
+mod.60 <- storage$out[[6]]
 
 model <- mod.60
 # Labels
