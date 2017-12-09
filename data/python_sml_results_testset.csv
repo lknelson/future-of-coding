@@ -1,0 +1,746 @@
+year	code	weight	code_label	id	binary1	binary2	three_code2	linearSVC_three_code2	linearSVC_binary1	linearSVC_binary2	b1	b2	tc
+1981	5	6.67	irrelevant	1	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1982	3	10	relchanges (income/wages/earnings/etc.)	2	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1995	5	6.67	irrelevant	4	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1991	5	6.67	irrelevant	5	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2004	5	6.67	irrelevant	6	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	8	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+2002	1	6.67	relinequality, explicit	13	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1990	1	10	relinequality, explicit	14	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	5	6.67	irrelevant	16	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	5	6.67	irrelevant	18	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	5	6.67	irrelevant	20	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	2	10	relinequality, implicit	24	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2006	3	10	relchanges (income/wages/earnings/etc.)	25	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2006	5	6.67	irrelevant	26	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2007	5	6.67	irrelevant	27	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1981	1	10	relinequality, explicit	28	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2008	5	6.67	irrelevant	29	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	32	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1982	3	10	relchanges (income/wages/earnings/etc.)	34	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1990	3	10	relchanges (income/wages/earnings/etc.)	35	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1990	3	10	relchanges (income/wages/earnings/etc.)	37	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1987	2	10	relinequality, implicit	40	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+2005	5	6.67	irrelevant	41	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	5	6.67	irrelevant	43	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2007	3	6.67	relchanges (income/wages/earnings/etc.)	44	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1982	3	10	relchanges (income/wages/earnings/etc.)	45	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2004	5	10	irrelevant	47	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2008	5	6.67	irrelevant	48	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	4	6.67	releconomy (employment, economy)	49	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1980	3	10	relchanges (income/wages/earnings/etc.)	52	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2007	3	6.67	relchanges (income/wages/earnings/etc.)	53	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	1	1	2	2
+2010	1	6.67	relinequality, explicit	54	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1999	5	6.67	irrelevant	55	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	3	10	relchanges (income/wages/earnings/etc.)	57	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2007	5	6.67	irrelevant	58	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+1997	5	6.67	irrelevant	59	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	2	2	2	2	3
+1984	5	6.67	irrelevant	62	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1984	2	6.67	relinequality, implicit	65	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	1	6.67	relinequality, explicit	66	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	5	6.67	irrelevant	67	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1992	2	10	relinequality, implicit	70	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	4	6.67	releconomy (employment, economy)	72	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1989	5	6.67	irrelevant	73	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2002	2	6.67	relinequality, implicit	74	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1992	3	6.67	relchanges (income/wages/earnings/etc.)	75	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2000	1	6.67	relinequality, explicit	76	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1998	5	6.67	irrelevant	79	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	81	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	5	6.67	irrelevant	85	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1995	1	6.67	relinequality, explicit	86	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2002	1	6.67	relinequality, explicit	87	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	1	1	relinequality, explicit	89	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2002	3	10	relchanges (income/wages/earnings/etc.)	90	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2001	5	6.67	irrelevant	91	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	92	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1997	5	6.67	irrelevant	96	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	6.67	irrelevant	97	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	2	6.67	relinequality, implicit	98	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+2000	1	1	relinequality, explicit	99	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2000	1	6.67	relinequality, explicit	101	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	5	6.67	irrelevant	102	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1987	5	6.67	irrelevant	103	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	1	6.67	relinequality, explicit	106	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1991	5	6.67	irrelevant	110	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	1	2	2	3
+1990	3	10	relchanges (income/wages/earnings/etc.)	111	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	112	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1999	3	6.67	relchanges (income/wages/earnings/etc.)	114	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1981	5	6.67	irrelevant	115	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1996	5	6.67	irrelevant	117	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	118	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1995	1	1	relinequality, explicit	119	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2011	4	6.67	releconomy (employment, economy)	121	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1986	4	6.67	releconomy (employment, economy)	124	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1985	3	10	relchanges (income/wages/earnings/etc.)	125	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2009	5	6.67	irrelevant	126	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	5	10	irrelevant	127	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	2	2	2	2	3
+1999	5	6.67	irrelevant	128	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	3	10	relchanges (income/wages/earnings/etc.)	129	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2006	5	6.67	irrelevant	131	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2011	2	6.67	relinequality, implicit	132	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1987	3	10	relchanges (income/wages/earnings/etc.)	133	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1993	3	10	relchanges (income/wages/earnings/etc.)	134	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	2	6.67	relinequality, implicit	135	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	5	6.67	irrelevant	136	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1985	1	10	relinequality, explicit	137	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1985	2	6.67	relinequality, implicit	138	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	2	6.67	relinequality, implicit	139	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1980	5	6.67	irrelevant	140	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2009	4	6.67	releconomy (employment, economy)	142	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1988	5	6.67	irrelevant	144	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	2	6.67	relinequality, implicit	148	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2010	4	6.67	releconomy (employment, economy)	149	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	153	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	1	6.67	relinequality, explicit	154	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	5	6.67	irrelevant	155	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2004	5	10	irrelevant	156	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2002	5	6.67	irrelevant	158	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	159	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1981	2	6.67	relinequality, implicit	160	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1980	2	10	relinequality, implicit	162	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1984	2	6.67	relinequality, implicit	163	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1995	5	10	irrelevant	165	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	1	6.67	relinequality, explicit	166	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1983	3	10	relchanges (income/wages/earnings/etc.)	167	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2001	1	6.67	relinequality, explicit	169	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1984	4	10	releconomy (employment, economy)	170	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1990	5	6.67	irrelevant	174	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1989	5	10	irrelevant	175	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	1	6.67	relinequality, explicit	177	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1986	5	10	irrelevant	178	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1985	3	10	relchanges (income/wages/earnings/etc.)	179	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2004	2	6.67	relinequality, implicit	182	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1993	5	6.67	irrelevant	183	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	6.67	irrelevant	184	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1994	5	6.67	irrelevant	186	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1991	2	6.67	relinequality, implicit	187	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2007	1	6.67	relinequality, explicit	188	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1983	5	6.67	irrelevant	190	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1985	5	10	irrelevant	194	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1984	3	10	relchanges (income/wages/earnings/etc.)	196	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2003	5	10	irrelevant	197	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1996	5	6.67	irrelevant	199	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1981	5	6.67	irrelevant	200	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1996	1	10	relinequality, explicit	202	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1993	5	6.67	irrelevant	203	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1994	1	1	relinequality, explicit	204	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2012	4	6.67	releconomy (employment, economy)	207	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2012	5	6.67	irrelevant	208	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1992	1	6.67	relinequality, explicit	209	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1998	1	6.67	relinequality, explicit	210	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1983	1	10	relinequality, explicit	211	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1990	1	10	relinequality, explicit	216	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	1	6.67	relinequality, explicit	217	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	5	10	irrelevant	218	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	10	irrelevant	219	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	1	6.67	relinequality, explicit	223	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	224	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	226	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	230	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1996	1	6.67	relinequality, explicit	231	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2010	2	6.67	relinequality, implicit	235	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	2	10	relinequality, implicit	236	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2001	4	6.67	releconomy (employment, economy)	237	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	3	6.67	relchanges (income/wages/earnings/etc.)	239	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2000	3	6.67	relchanges (income/wages/earnings/etc.)	240	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1991	1	6.67	relinequality, explicit	243	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	5	6.67	irrelevant	245	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	6.67	irrelevant	247	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	3	10	relchanges (income/wages/earnings/etc.)	249	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2009	4	6.67	releconomy (employment, economy)	251	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	3	6.67	relchanges (income/wages/earnings/etc.)	252	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1996	5	6.67	irrelevant	254	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2006	5	6.67	irrelevant	256	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	1	10	relinequality, explicit	257	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1999	3	10	relchanges (income/wages/earnings/etc.)	258	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2012	2	6.67	relinequality, implicit	259	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1993	5	6.67	irrelevant	260	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	3	6.67	relchanges (income/wages/earnings/etc.)	261	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1992	1	6.67	relinequality, explicit	262	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1993	2	6.67	relinequality, implicit	263	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1985	3	10	relchanges (income/wages/earnings/etc.)	265	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2003	3	6.67	relchanges (income/wages/earnings/etc.)	266	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1984	3	6.67	relchanges (income/wages/earnings/etc.)	267	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2008	2	6.67	relinequality, implicit	271	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+2011	2	6.67	relinequality, implicit	272	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2004	3	10	relchanges (income/wages/earnings/etc.)	273	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1999	5	6.67	irrelevant	277	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1992	5	6.67	irrelevant	278	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	279	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2012	2	6.67	relinequality, implicit	280	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1985	5	6.67	irrelevant	281	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2002	5	6.67	irrelevant	284	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	4	6.67	releconomy (employment, economy)	287	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1983	2	6.67	relinequality, implicit	291	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2011	5	6.67	irrelevant	294	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	5	10	irrelevant	295	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	297	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	298	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1989	5	10	irrelevant	301	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2004	5	10	irrelevant	304	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	4	6.67	releconomy (employment, economy)	305	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1989	3	6.67	relchanges (income/wages/earnings/etc.)	308	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1983	5	6.67	irrelevant	309	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	3	6.67	relchanges (income/wages/earnings/etc.)	310	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1983	2	6.67	relinequality, implicit	311	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2000	1	6.67	relinequality, explicit	312	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	1	1	1	1
+2011	1	6.67	relinequality, explicit	314	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2000	1	6.67	relinequality, explicit	315	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1998	3	6.67	relchanges (income/wages/earnings/etc.)	316	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1997	5	6.67	irrelevant	317	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1987	5	6.67	irrelevant	318	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	319	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1988	1	1	relinequality, explicit	325	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2000	5	6.67	irrelevant	327	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	5	6.67	irrelevant	329	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1985	5	10	irrelevant	333	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	2	6.67	relinequality, implicit	336	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2002	2	10	relinequality, implicit	340	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	341	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2000	1	1	relinequality, explicit	345	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+2012	3	6.67	relchanges (income/wages/earnings/etc.)	347	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2008	2	6.67	relinequality, implicit	348	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	349	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1985	1	6.67	relinequality, explicit	350	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2010	5	6.67	irrelevant	351	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	1	1	relinequality, explicit	354	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	355	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1991	1	6.67	relinequality, explicit	360	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1980	1	6.67	relinequality, explicit	361	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	5	6.67	irrelevant	362	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+1989	1	10	relinequality, explicit	363	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2007	1	6.67	relinequality, explicit	365	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2005	2	10	relinequality, implicit	366	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	367	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2003	4	10	releconomy (employment, economy)	368	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2001	5	6.67	irrelevant	370	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	2	6.67	relinequality, implicit	371	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	1	1	1	1
+1990	5	6.67	irrelevant	372	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1996	5	6.67	irrelevant	373	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2006	5	6.67	irrelevant	374	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2006	1	1	relinequality, explicit	375	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2003	2	6.67	relinequality, implicit	378	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1981	5	6.67	irrelevant	381	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1988	3	10	relchanges (income/wages/earnings/etc.)	382	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2009	2	6.67	relinequality, implicit	384	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	385	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2007	5	6.67	irrelevant	386	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	5	6.67	irrelevant	387	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2006	3	6.67	relchanges (income/wages/earnings/etc.)	388	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1995	1	10	relinequality, explicit	391	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2003	5	10	irrelevant	392	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1986	4	10	releconomy (employment, economy)	393	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1985	5	6.67	irrelevant	394	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+1992	1	6.67	relinequality, explicit	395	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1996	1	10	relinequality, explicit	396	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1989	5	6.67	irrelevant	397	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1990	1	6.67	relinequality, explicit	399	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1998	5	6.67	irrelevant	400	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	2	6.67	relinequality, implicit	401	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1998	3	6.67	relchanges (income/wages/earnings/etc.)	402	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1982	5	6.67	irrelevant	403	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1984	5	6.67	irrelevant	405	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1984	5	6.67	irrelevant	406	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2005	5	10	irrelevant	410	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	2	1	relinequality, implicit	411	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1989	3	6.67	relchanges (income/wages/earnings/etc.)	412	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1981	5	6.67	irrelevant	413	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	5	6.67	irrelevant	414	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	2	6.67	relinequality, implicit	415	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1985	5	6.67	irrelevant	417	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1983	5	6.67	irrelevant	422	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2004	1	1	relinequality, explicit	423	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1989	3	10	relchanges (income/wages/earnings/etc.)	425	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1995	2	6.67	relinequality, implicit	426	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1996	1	1	relinequality, explicit	429	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1993	4	6.67	releconomy (employment, economy)	430	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	431	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2003	1	6.67	relinequality, explicit	433	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1988	4	10	releconomy (employment, economy)	437	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1997	3	10	relchanges (income/wages/earnings/etc.)	441	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2010	1	6.67	relinequality, explicit	442	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	5	10	irrelevant	443	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1988	5	6.67	irrelevant	444	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1987	3	10	relchanges (income/wages/earnings/etc.)	445	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+2012	5	6.67	irrelevant	449	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	2	2	2	2	3
+1989	2	10	relinequality, implicit	450	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2001	5	6.67	irrelevant	452	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+2006	3	6.67	relchanges (income/wages/earnings/etc.)	457	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1982	1	6.67	relinequality, explicit	458	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2003	5	6.67	irrelevant	459	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	5	6.67	irrelevant	461	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1999	3	10	relchanges (income/wages/earnings/etc.)	462	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2007	3	10	relchanges (income/wages/earnings/etc.)	463	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2001	5	6.67	irrelevant	464	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	2	6.67	relinequality, implicit	466	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	2	6.67	relinequality, implicit	467	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1993	1	1	relinequality, explicit	470	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1988	1	6.67	relinequality, explicit	474	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	475	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1996	3	10	relchanges (income/wages/earnings/etc.)	477	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2003	5	6.67	irrelevant	478	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	1	10	relinequality, explicit	479	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	1	6.67	relinequality, explicit	480	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	1	6.67	relinequality, explicit	483	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	5	6.67	irrelevant	484	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2003	5	10	irrelevant	486	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	2	6.67	relinequality, implicit	488	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1993	5	10	irrelevant	489	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2002	5	6.67	irrelevant	490	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	491	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1983	5	6.67	irrelevant	492	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	5	6.67	irrelevant	493	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1984	3	10	relchanges (income/wages/earnings/etc.)	495	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2000	5	6.67	irrelevant	496	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1981	5	6.67	irrelevant	501	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	10	irrelevant	504	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	5	6.67	irrelevant	505	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2007	5	6.67	irrelevant	506	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1980	2	6.67	relinequality, implicit	507	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	1	6.67	relinequality, explicit	512	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1984	5	6.67	irrelevant	513	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1982	1	6.67	relinequality, explicit	516	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	2	6.67	relinequality, implicit	517	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1989	2	6.67	relinequality, implicit	518	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	519	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1989	5	10	irrelevant	521	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1984	2	10	relinequality, implicit	522	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	1	6.67	relinequality, explicit	523	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	5	6.67	irrelevant	524	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2010	1	6.67	relinequality, explicit	525	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	526	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2004	5	10	irrelevant	530	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	5	6.67	irrelevant	531	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1987	3	6.67	relchanges (income/wages/earnings/etc.)	532	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2006	5	6.67	irrelevant	539	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	1	6.67	relinequality, explicit	540	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1993	4	6.67	releconomy (employment, economy)	544	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1994	1	6.67	relinequality, explicit	545	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1987	5	6.67	irrelevant	547	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1998	5	10	irrelevant	548	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	4	6.67	releconomy (employment, economy)	550	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2001	1	6.67	relinequality, explicit	551	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1983	4	6.67	releconomy (employment, economy)	552	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2009	1	6.67	relinequality, explicit	554	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	1	6.67	relinequality, explicit	555	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	1	6.67	relinequality, explicit	556	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	4	6.67	releconomy (employment, economy)	557	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1989	5	10	irrelevant	558	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2009	5	6.67	irrelevant	559	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+1989	5	6.67	irrelevant	560	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1986	5	6.67	irrelevant	563	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1990	2	6.67	relinequality, implicit	564	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2011	4	6.67	releconomy (employment, economy)	566	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1981	2	10	relinequality, implicit	567	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	2	6.67	relinequality, implicit	568	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2000	5	6.67	irrelevant	569	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	2	6.67	relinequality, implicit	571	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1988	3	10	relchanges (income/wages/earnings/etc.)	572	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2003	5	10	irrelevant	573	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2005	2	6.67	relinequality, implicit	575	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1993	1	1	relinequality, explicit	579	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1989	1	6.67	relinequality, explicit	582	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2012	4	6.67	releconomy (employment, economy)	585	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	587	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1991	2	6.67	relinequality, implicit	588	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	590	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1985	1	6.67	relinequality, explicit	592	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	2	6.67	relinequality, implicit	595	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	1	10	relinequality, explicit	596	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2011	4	6.67	releconomy (employment, economy)	598	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2004	5	10	irrelevant	600	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1999	3	10	relchanges (income/wages/earnings/etc.)	601	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1986	5	6.67	irrelevant	602	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2005	5	6.67	irrelevant	604	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	605	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	606	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+1984	5	6.67	irrelevant	607	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	608	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2010	5	6.67	irrelevant	609	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	1	10	relinequality, explicit	610	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	1	6.67	relinequality, explicit	611	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2003	1	6.67	relinequality, explicit	613	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1992	3	6.67	relchanges (income/wages/earnings/etc.)	615	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2012	1	1	relinequality, explicit	616	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2006	5	6.67	irrelevant	619	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2006	5	6.67	irrelevant	620	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2006	5	6.67	irrelevant	621	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2007	5	6.67	irrelevant	622	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2007	5	6.67	irrelevant	623	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2005	2	6.67	relinequality, implicit	626	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2005	5	6.67	irrelevant	627	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2005	5	6.67	irrelevant	628	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2005	5	6.67	irrelevant	629	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2005	4	6.67	releconomy (employment, economy)	630	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1985	2	6.67	relinequality, implicit	636	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1993	3	6.67	relchanges (income/wages/earnings/etc.)	637	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2005	5	6.67	irrelevant	638	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	640	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	641	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1986	5	6.67	irrelevant	642	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	4	6.67	releconomy (employment, economy)	643	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1989	5	6.67	irrelevant	644	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1996	4	10	releconomy (employment, economy)	646	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1982	3	10	relchanges (income/wages/earnings/etc.)	647	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1981	3	6.67	relchanges (income/wages/earnings/etc.)	648	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1980	5	6.67	irrelevant	651	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2004	5	10	irrelevant	652	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	5	6.67	irrelevant	653	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1993	3	6.67	relchanges (income/wages/earnings/etc.)	654	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1988	5	6.67	irrelevant	655	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2005	3	6.67	relchanges (income/wages/earnings/etc.)	656	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1998	5	6.67	irrelevant	657	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1999	5	6.67	irrelevant	658	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1987	5	6.67	irrelevant	659	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1989	5	6.67	irrelevant	660	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1989	5	10	irrelevant	661	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	3	10	relchanges (income/wages/earnings/etc.)	663	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2012	2	6.67	relinequality, implicit	668	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1982	5	6.67	irrelevant	674	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2002	4	10	releconomy (employment, economy)	676	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1997	1	10	relinequality, explicit	677	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1983	5	6.67	irrelevant	678	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2004	1	6.67	relinequality, explicit	679	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1994	5	6.67	irrelevant	680	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1992	3	6.67	relchanges (income/wages/earnings/etc.)	682	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1993	3	6.67	relchanges (income/wages/earnings/etc.)	683	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1983	1	6.67	relinequality, explicit	684	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2003	2	6.67	relinequality, implicit	685	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2002	5	6.67	irrelevant	688	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	6.67	irrelevant	689	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1986	5	6.67	irrelevant	691	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	692	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1990	2	10	relinequality, implicit	694	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1992	1	6.67	relinequality, explicit	695	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1993	5	6.67	irrelevant	697	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2004	5	10	irrelevant	698	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	3	10	relchanges (income/wages/earnings/etc.)	699	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1999	3	6.67	relchanges (income/wages/earnings/etc.)	702	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1987	1	10	relinequality, explicit	703	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1981	3	6.67	relchanges (income/wages/earnings/etc.)	704	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2005	5	6.67	irrelevant	706	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1980	5	6.67	irrelevant	708	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	3	10	relchanges (income/wages/earnings/etc.)	711	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2006	5	6.67	irrelevant	712	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	5	6.67	irrelevant	713	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	5	6.67	irrelevant	714	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	5	6.67	irrelevant	715	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1983	5	6.67	irrelevant	717	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1989	5	6.67	irrelevant	718	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	5	6.67	irrelevant	720	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	3	10	relchanges (income/wages/earnings/etc.)	721	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1982	4	6.67	releconomy (employment, economy)	722	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2006	2	6.67	relinequality, implicit	723	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+2007	5	6.67	irrelevant	725	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	5	6.67	irrelevant	726	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	727	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	728	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1985	2	10	relinequality, implicit	729	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2004	5	6.67	irrelevant	730	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	1	2	2	3
+1992	3	10	relchanges (income/wages/earnings/etc.)	731	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1984	3	10	relchanges (income/wages/earnings/etc.)	733	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1980	2	6.67	relinequality, implicit	736	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2010	1	1	relinequality, explicit	737	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	5	6.67	irrelevant	738	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	1	10	relinequality, explicit	739	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2004	3	10	relchanges (income/wages/earnings/etc.)	740	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2012	1	1	relinequality, explicit	741	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2009	1	6.67	relinequality, explicit	742	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1999	2	6.67	relinequality, implicit	743	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+2012	1	1	relinequality, explicit	746	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1982	2	6.67	relinequality, implicit	748	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1981	2	6.67	relinequality, implicit	749	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1981	1	6.67	relinequality, explicit	751	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	3	10	relchanges (income/wages/earnings/etc.)	753	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	3	10	relchanges (income/wages/earnings/etc.)	754	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1987	5	6.67	irrelevant	757	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	5	6.67	irrelevant	758	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1985	2	10	relinequality, implicit	760	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	762	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1994	1	6.67	relinequality, explicit	765	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1989	5	10	irrelevant	766	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1985	3	6.67	relchanges (income/wages/earnings/etc.)	768	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1995	1	10	relinequality, explicit	769	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2005	3	6.67	relchanges (income/wages/earnings/etc.)	775	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1991	5	6.67	irrelevant	776	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	1	6.67	relinequality, explicit	779	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+2012	5	6.67	irrelevant	780	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2001	3	10	relchanges (income/wages/earnings/etc.)	781	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1992	5	6.67	irrelevant	784	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1991	2	6.67	relinequality, implicit	786	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2012	5	6.67	irrelevant	787	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2010	5	6.67	irrelevant	791	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2000	3	10	relchanges (income/wages/earnings/etc.)	794	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2008	1	1	relinequality, explicit	795	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+2002	5	6.67	irrelevant	796	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2011	5	6.67	irrelevant	797	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1998	5	6.67	irrelevant	799	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2005	5	6.67	irrelevant	801	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	1	10	relinequality, explicit	802	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1981	5	6.67	irrelevant	804	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	3	6.67	relchanges (income/wages/earnings/etc.)	807	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1980	5	6.67	irrelevant	808	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1987	4	6.67	releconomy (employment, economy)	811	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1983	5	6.67	irrelevant	812	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	2	10	relinequality, implicit	814	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2003	1	10	relinequality, explicit	816	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2007	5	6.67	irrelevant	818	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	5	6.67	irrelevant	819	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2005	1	1	relinequality, explicit	822	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2001	3	10	relchanges (income/wages/earnings/etc.)	823	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	5	6.67	irrelevant	824	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	825	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	10	irrelevant	826	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1986	5	10	irrelevant	827	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	10	irrelevant	828	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	830	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2011	5	6.67	irrelevant	831	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2012	4	6.67	releconomy (employment, economy)	832	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2008	1	1	relinequality, explicit	834	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	2	6.67	relinequality, implicit	835	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1983	5	6.67	irrelevant	836	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1985	2	6.67	relinequality, implicit	837	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1983	3	10	relchanges (income/wages/earnings/etc.)	840	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1992	3	6.67	relchanges (income/wages/earnings/etc.)	841	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1981	5	6.67	irrelevant	842	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1986	3	10	relchanges (income/wages/earnings/etc.)	843	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2006	1	6.67	relinequality, explicit	845	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1997	2	6.67	relinequality, implicit	847	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2008	2	6.67	relinequality, implicit	849	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1999	5	6.67	irrelevant	851	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1991	5	6.67	irrelevant	852	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	5	6.67	irrelevant	854	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2003	1	6.67	relinequality, explicit	856	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	2	6.67	relinequality, implicit	860	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1997	5	6.67	irrelevant	862	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1991	5	6.67	irrelevant	863	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	864	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+2012	4	6.67	releconomy (employment, economy)	865	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2012	1	6.67	relinequality, explicit	866	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+2012	2	6.67	relinequality, implicit	868	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	2	2	1	1	1
+2010	2	6.67	relinequality, implicit	871	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1982	1	6.67	relinequality, explicit	873	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1998	5	10	irrelevant	874	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1998	5	6.67	irrelevant	875	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1992	3	6.67	relchanges (income/wages/earnings/etc.)	876	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1984	3	10	relchanges (income/wages/earnings/etc.)	879	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2012	4	6.67	releconomy (employment, economy)	882	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1980	3	10	relchanges (income/wages/earnings/etc.)	883	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1999	5	6.67	irrelevant	884	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1995	1	6.67	relinequality, explicit	885	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1985	1	6.67	relinequality, explicit	888	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2000	5	6.67	irrelevant	889	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	3	10	relchanges (income/wages/earnings/etc.)	890	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1985	5	6.67	irrelevant	891	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1985	1	6.67	relinequality, explicit	892	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	3	10	relchanges (income/wages/earnings/etc.)	893	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	1	6.67	relinequality, explicit	894	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1989	5	6.67	irrelevant	898	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	1	1	relinequality, explicit	899	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	5	6.67	irrelevant	901	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	1	2	2	3
+1982	2	10	relinequality, implicit	902	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	1	1	relinequality, explicit	906	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2010	5	6.67	irrelevant	910	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1981	1	10	relinequality, explicit	912	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2009	3	6.67	relchanges (income/wages/earnings/etc.)	915	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1986	3	10	relchanges (income/wages/earnings/etc.)	916	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	1	10	relinequality, explicit	918	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	1	10	relinequality, explicit	919	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2011	4	6.67	releconomy (employment, economy)	920	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1982	3	10	relchanges (income/wages/earnings/etc.)	921	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2007	5	6.67	irrelevant	922	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2011	1	6.67	relinequality, explicit	925	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2008	1	6.67	relinequality, explicit	926	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	3	10	relchanges (income/wages/earnings/etc.)	931	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2011	3	6.67	relchanges (income/wages/earnings/etc.)	932	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1983	3	10	relchanges (income/wages/earnings/etc.)	933	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2007	1	1	relinequality, explicit	936	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2007	3	10	relchanges (income/wages/earnings/etc.)	945	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2005	5	6.67	irrelevant	946	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2007	3	6.67	relchanges (income/wages/earnings/etc.)	947	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2008	3	10	relchanges (income/wages/earnings/etc.)	951	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+2012	5	6.67	irrelevant	952	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	1	6.67	relinequality, explicit	953	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2003	1	6.67	relinequality, explicit	954	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2012	2	1	relinequality, implicit	955	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	4	10	releconomy (employment, economy)	956	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2008	5	6.67	irrelevant	958	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+2007	1	1	relinequality, explicit	965	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2003	1	6.67	relinequality, explicit	968	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	5	6.67	irrelevant	969	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2011	4	6.67	releconomy (employment, economy)	970	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1997	3	10	relchanges (income/wages/earnings/etc.)	971	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	3	10	relchanges (income/wages/earnings/etc.)	972	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2006	4	10	releconomy (employment, economy)	978	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+2009	1	6.67	relinequality, explicit	979	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2005	5	6.67	irrelevant	980	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2000	5	6.67	irrelevant	981	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1998	5	10	irrelevant	982	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	3	6.67	relchanges (income/wages/earnings/etc.)	983	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2007	3	6.67	relchanges (income/wages/earnings/etc.)	984	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2010	4	6.67	releconomy (employment, economy)	985	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2004	1	6.67	relinequality, explicit	986	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	1	10	relinequality, explicit	988	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	4	6.67	releconomy (employment, economy)	989	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	1	6.67	relinequality, explicit	992	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	5	6.67	irrelevant	993	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1999	5	6.67	irrelevant	995	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	3	10	relchanges (income/wages/earnings/etc.)	996	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1996	1	6.67	relinequality, explicit	997	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1997	5	6.67	irrelevant	998	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1990	2	6.67	relinequality, implicit	999	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2001	5	6.67	irrelevant	1001	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	1	10	relinequality, explicit	1002	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1982	1	6.67	relinequality, explicit	1003	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2001	2	10	relinequality, implicit	1005	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2003	5	10	irrelevant	1006	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1997	3	6.67	relchanges (income/wages/earnings/etc.)	1008	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+2000	1	6.67	relinequality, explicit	1009	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1986	5	6.67	irrelevant	1010	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	3	6.67	relchanges (income/wages/earnings/etc.)	1013	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1992	1	6.67	relinequality, explicit	1014	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2009	1	6.67	relinequality, explicit	1016	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1988	1	6.67	relinequality, explicit	1018	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1988	1	6.67	relinequality, explicit	1020	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1989	5	6.67	irrelevant	1021	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1998	5	6.67	irrelevant	1023	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	1	1	relinequality, explicit	1024	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	1	1	relinequality, explicit	1025	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	5	1	irrelevant	1026	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	5	6.67	irrelevant	1028	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1995	1	1	relinequality, explicit	1032	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1993	3	10	relchanges (income/wages/earnings/etc.)	1033	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2003	2	6.67	relinequality, implicit	1035	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	1	1	1	1
+1994	1	1	relinequality, explicit	1037	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1986	5	6.67	irrelevant	1038	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1996	5	6.67	irrelevant	1039	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1983	2	6.67	relinequality, implicit	1042	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	5	6.67	irrelevant	1043	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	1	6.67	relinequality, explicit	1044	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	5	6.67	irrelevant	1045	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	5	6.67	irrelevant	1047	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2001	2	6.67	relinequality, implicit	1049	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1995	1	6.67	relinequality, explicit	1050	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	5	6.67	irrelevant	1052	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1992	5	1	irrelevant	1053	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1996	5	6.67	irrelevant	1055	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1990	5	6.67	irrelevant	1056	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1993	1	10	relinequality, explicit	1057	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2006	1	1	relinequality, explicit	1058	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1983	5	6.67	irrelevant	1060	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	1061	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1996	5	6.67	irrelevant	1062	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	2	10	relinequality, implicit	1063	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	3	6.67	relchanges (income/wages/earnings/etc.)	1064	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+2006	5	6.67	irrelevant	1066	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1986	5	6.67	irrelevant	1068	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	5	6.67	irrelevant	1069	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	4	6.67	releconomy (employment, economy)	1070	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2010	2	6.67	relinequality, implicit	1072	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	3	10	relchanges (income/wages/earnings/etc.)	1073	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1999	1	1	relinequality, explicit	1076	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1985	5	6.67	irrelevant	1082	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1995	1	6.67	relinequality, explicit	1084	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2003	5	10	irrelevant	1086	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	3	10	relchanges (income/wages/earnings/etc.)	1087	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1987	2	10	relinequality, implicit	1090	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	5	6.67	irrelevant	1091	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2003	5	6.67	irrelevant	1093	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1984	5	6.67	irrelevant	1094	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1984	3	10	relchanges (income/wages/earnings/etc.)	1096	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2011	4	6.67	releconomy (employment, economy)	1098	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1993	5	6.67	irrelevant	1099	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1986	4	10	releconomy (employment, economy)	1100	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1991	1	6.67	relinequality, explicit	1101	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1982	2	6.67	relinequality, implicit	1102	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	1	1	1	1
+1982	3	6.67	relchanges (income/wages/earnings/etc.)	1103	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	5	6.67	irrelevant	1104	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1985	4	6.67	releconomy (employment, economy)	1106	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1981	2	6.67	relinequality, implicit	1107	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	5	6.67	irrelevant	1108	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1984	2	6.67	relinequality, implicit	1109	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1981	1	6.67	relinequality, explicit	1110	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1982	1	6.67	relinequality, explicit	1111	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1989	5	10	irrelevant	1112	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	1	6.67	relinequality, explicit	1114	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2001	1	6.67	relinequality, explicit	1117	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	5	6.67	irrelevant	1118	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2011	1	1	relinequality, explicit	1120	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1980	2	6.67	relinequality, implicit	1123	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2005	2	10	relinequality, implicit	1128	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1997	1	6.67	relinequality, explicit	1129	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2012	2	6.67	relinequality, implicit	1130	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1984	3	6.67	relchanges (income/wages/earnings/etc.)	1131	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	5	6.67	irrelevant	1134	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2012	2	6.67	relinequality, implicit	1137	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1983	5	6.67	irrelevant	1138	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+2009	1	1	relinequality, explicit	1139	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2008	1	6.67	relinequality, explicit	1142	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1994	5	10	irrelevant	1145	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	3	10	relchanges (income/wages/earnings/etc.)	1147	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+2009	1	1	relinequality, explicit	1148	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1985	3	10	relchanges (income/wages/earnings/etc.)	1151	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1982	3	6.67	relchanges (income/wages/earnings/etc.)	1152	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2006	1	6.67	relinequality, explicit	1156	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1991	1	10	relinequality, explicit	1158	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1982	5	10	irrelevant	1160	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2009	4	6.67	releconomy (employment, economy)	1161	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+2000	4	10	releconomy (employment, economy)	1162	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2009	2	6.67	relinequality, implicit	1163	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1988	5	6.67	irrelevant	1164	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1992	2	6.67	relinequality, implicit	1165	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	1	1	1	1
+1995	1	10	relinequality, explicit	1167	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1986	1	6.67	relinequality, explicit	1168	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1990	1	10	relinequality, explicit	1169	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1992	1	6.67	relinequality, explicit	1170	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2010	2	6.67	relinequality, implicit	1174	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1999	5	6.67	irrelevant	1175	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1994	5	6.67	irrelevant	1176	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1981	3	10	relchanges (income/wages/earnings/etc.)	1177	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1985	3	10	relchanges (income/wages/earnings/etc.)	1180	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	1	2	1	2	2
+1986	5	6.67	irrelevant	1181	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	2	6.67	relinequality, implicit	1183	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1984	4	6.67	releconomy (employment, economy)	1184	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1987	5	6.67	irrelevant	1185	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2006	3	6.67	relchanges (income/wages/earnings/etc.)	1188	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1981	1	10	relinequality, explicit	1190	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2009	2	6.67	relinequality, implicit	1191	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+1995	1	6.67	relinequality, explicit	1194	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1983	5	6.67	irrelevant	1195	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2012	1	1	relinequality, explicit	1196	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	1197	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1984	5	6.67	irrelevant	1198	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2010	3	6.67	relchanges (income/wages/earnings/etc.)	1199	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1983	3	10	relchanges (income/wages/earnings/etc.)	1200	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	2	1	2	2
+1980	2	6.67	relinequality, implicit	1201	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+1986	4	10	releconomy (employment, economy)	1202	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	3	2	2	1	2	2
+1990	1	10	relinequality, explicit	1203	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2011	2	6.67	relinequality, implicit	1205	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1981	2	10	relinequality, implicit	1206	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	2	1	1	1
+1981	1	6.67	relinequality, explicit	1212	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1999	5	6.67	irrelevant	1214	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2009	1	1	relinequality, explicit	1215	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1984	5	6.67	irrelevant	1219	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1999	1	6.67	relinequality, explicit	1220	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1996	5	6.67	irrelevant	1222	irrelevant	relchanges/releconomy/irrelevant	irrelevant	1	1	2	2	2	3
+1990	1	6.67	relinequality, explicit	1224	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2005	5	6.67	irrelevant	1229	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+2008	3	6.67	relchanges (income/wages/earnings/etc.)	1230	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1982	1	6.67	relinequality, explicit	1231	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
+2004	3	6.67	relchanges (income/wages/earnings/etc.)	1232	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1980	2	6.67	relinequality, implicit	1233	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	2	2	1	1	1
+1991	3	10	relchanges (income/wages/earnings/etc.)	1235	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1986	5	6.67	irrelevant	1236	irrelevant	relchanges/releconomy/irrelevant	irrelevant	2	1	2	2	2	3
+1984	2	6.67	relinequality, implicit	1239	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	3	1	2	1	1	1
+2012	5	6.67	irrelevant	1240	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1980	5	6.67	irrelevant	1241	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	1	2	2	2	3
+1982	3	10	relchanges (income/wages/earnings/etc.)	1242	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+1980	5	6.67	irrelevant	1244	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1982	3	6.67	relchanges (income/wages/earnings/etc.)	1245	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	1	1	1	1	2	2
+1995	3	10	relchanges (income/wages/earnings/etc.)	1247	explicit/implicit/relchanges/releconomy	relchanges/releconomy/irrelevant	relchanges/releconomy	2	1	2	1	2	2
+2011	1	6.67	relinequality, explicit	1248	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+2010	2	6.67	relinequality, implicit	1250	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	1	1	1	1	1	1
+1986	5	6.67	irrelevant	1252	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1988	5	6.67	irrelevant	1253	irrelevant	relchanges/releconomy/irrelevant	irrelevant	3	2	2	2	2	3
+1987	1	6.67	relinequality, explicit	1254	explicit/implicit/relchanges/releconomy	explicit/implicit	explicit/implicit	2	1	2	1	1	1
