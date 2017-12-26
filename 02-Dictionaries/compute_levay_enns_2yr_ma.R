@@ -1,5 +1,8 @@
 library(tidyverse)
 
+cur_dir <- getwd()
+setwd("02-Dictionaries")
+
 d <- read_csv("output/time_trend_by_one_mention_and_ppn_keywords.csv")
 
 d <- set_names(d, c("year", "kw_per_1000", "pct_w_kw", "pct_explicit"))
@@ -11,3 +14,5 @@ d %>%
     ) %>%
     select(year, ppn_w_kw_ma) %>%
     as.data.frame()
+
+setwd(cur_dir)
