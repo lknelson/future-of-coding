@@ -1,13 +1,9 @@
----
-title: "Dictionary Method with Keywords from Kevin Levay and Enns et al. 2015"
-author: "Derek Burk"
-output: pdf_document
----
-
-```{r include=FALSE}
 library(data.table)
 library(stringr)
 library(knitr)
+
+cur_dir <- getwd()
+setwd("02-Dictionaries")
 
 # Helper functions
 apply_word_boundaries <- function(strings) paste0("\\b", strings, "s*\\b") # allow optional "s" at end of word
@@ -42,9 +38,7 @@ levay <- tolower(c("Economic disparities", "Economic disparity", "Economic distr
 enns <- tolower(c("Gini", "income quintile", "income decile", "top incomes", "inegalitarian income", "inegalitarian wealth", "egalitarian income", "egalitarian wealth", "income disparity", "wealth disparity", "income disparities", "wealth disparities", "income stratification", "wealth stratification", "unequal income", "unequal wealth", "income inequality", "wealth inequality", "inequality of income", "inequality of incomes", "inequality of wealth", "income equality", "wealth equality", "equality of incomes", "equality of income", "equality of wealth", "income distribution", "wealth distribution", "distribution of income", "distribution of incomes", "distribution of wealth", "redistribution of income", "redistribution of incomes", "redistribution of wealth", "income redistribution", "wealth redistribution", "equitable income", "equitable wealth", "equitable distribution", "inequitable income", "inequitable wealth", "inequitable distribution", "equity of incomes", "equity of income", "equity of wealth", "equity in incomes", "equity in income", "equity in wealth", "equality of incomes", "equality of income", "equality of wealth", "concentration of income", "concentration of wealth", "income concentration", "wealth concentration", "equalize incomes", "equalize income", "equalize wealth", "equalizing incomes", "equalizing income", "equalizing wealth", "income equalization", "wealth equalization", "unequal income", "unequal incomes", "unequal wealth", "inequity of incomes", "inequity of wealth", "income inequity", "wealth inequity", "uneven distribution", "income polarization", "wealth polarization", "distributional", "maldistribution"))
 
 all <- unique(c(levay, enns))
-```
 
-```{r}
 # Calculate weighted count of words in each article comprised by keywords
 d[ , levay_count := weight*calculate_kw_count(tolower(text), levay)]
 d[ , enns_count := weight*calculate_kw_count(tolower(text), enns)]
@@ -145,4 +139,5 @@ d[ , hand_explicit := ifelse(five_code=="explicit", "explicit", "not explicit")]
 out <- get_accuracy_mtrx(d, d$dict_explicit, d$hand_explicit, c("not explicit", "explicit"))
 write.csv(out, file="output/metrics_for_levay_enns_dict_as_indicator_of_explicit_article.csv")
 rm(out)
-```
+
+setwd(cur_dir)
