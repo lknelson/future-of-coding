@@ -1,11 +1,15 @@
 library(data.table)
 library(stringr)
 
+
+cur_dir <- getwd()
+setwd("02-Dictionaries")
+
 source("functions/remove_punctuation.r")
 source("functions/get_accuracy_mtrx.r")
 
 # Load newest data
-texts <- data.table(read.csv("data/final_fixed_w_trsets_and_codes.csv", stringsAsFactors = FALSE))
+texts <- data.table(read.csv("final_fixed_w_trsets_and_codes.csv", stringsAsFactors = FALSE))
 
 # Remove punctuation
 texts[ , text := remove_punctuation(text, exceptions="%")]
@@ -14,7 +18,7 @@ texts[ , text := remove_punctuation(text, exceptions="%")]
 # document contains at least one of the patterns
 has_any <- function(documents, patterns) {
     combined_patterns <- paste0(patterns, collapse="|")
-    contains_pattern <- str_detect(documents, ignore.case(combined_patterns))
+    contains_pattern <- str_detect(documents, regex(combined_patterns, ignore_case = TRUE))
     return(contains_pattern)
 }
 
@@ -24,7 +28,7 @@ has_any <- function(documents, patterns) {
 # 3. Otherwise, just add "s" to the end
 add_plurals <- function(term_list) {
     plurals <- sapply(term_list, function(x) {
-        if(str_detect(x, perl("[^aeiou]y$"))) {
+        if(str_detect(x, "[^aeiou]y$")) {
             return(str_replace(x, "y$", "ies"))
         } else if (str_detect(x, "ch$|s$|x$")) {
             return(paste0(x, "es"))
@@ -133,7 +137,7 @@ dict_by_hand_coding_table <- dict_by_hand_coding_table[ , c("explicit",
                                                             "releconomy",
                                                             "irrelevant")]
 
-write.csv(dict_by_hand_coding_table, file="output/leslie_dict_ppn_by_hand_code_category.csv")
+write.csv(dict_by_hand_coding_table, file="output/mccall_dict_ppn_by_hand_code_category.csv")
 
 # Create metrics tables comparing:
 # Explicit dict to explicit hand-coding
@@ -143,18 +147,18 @@ explicit_explicit_table <- get_accuracy_mtrx(texts, texts$dict_explicit,
                                              texts$hand_explicit, 
                                              c("not explicit", "explicit"))
 
-write.csv(explicit_explicit_table, file="output/leslie_dict_explicit_metrics.csv")
+write.csv(explicit_explicit_table, file="output/mccall_dict_explicit_metrics.csv")
 
 implicit_implicit_table <- get_accuracy_mtrx(texts, texts$dict_implicit, 
                                              texts$hand_implicit, 
                                              c("not implicit", "implicit"))
 
-write.csv(implicit_implicit_table, file="output/leslie_dict_implicit_metrics.csv")
+write.csv(implicit_implicit_table, file="output/mccall_dict_implicit_metrics.csv")
 
 ineq_ineq_table <- get_accuracy_mtrx(texts, texts$dict_ineq, texts$hand_ineq, 
                                      c("not inequality", "inequality"))
 
-write.csv(ineq_ineq_table, file="output/leslie_dict_explicit_or_implicit_metrics.csv")
+write.csv(ineq_ineq_table, file="output/mccall_dict_explicit_or_implicit_metrics.csv")
 
 # Get weighted proportions by year
 out <- texts[ , .("hand_explicit"=sum(weight[five_code=="explicit"])/sum(weight), 
@@ -167,4 +171,6 @@ out <- texts[ , .("hand_explicit"=sum(weight[five_code=="explicit"])/sum(weight)
 
 setorder(out, year)
 
-write.csv(out, file="output/leslie_dict_proportions_by_year.csv", row.names=FALSE)
+write.csv(out, file="output/mccall_dict_proportions_by_year.csv", row.names=FALSE)
+
+setwd(cur_dir)
