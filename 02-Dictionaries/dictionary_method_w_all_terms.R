@@ -89,7 +89,7 @@ d[ , one_mention := all_count > 0]
 
 # Save a copy of d with one mention articles flagged
 out <- d[ , .(year, title, month, five_code, weight, one_mention, text)]
-write.csv(out, file="output/levay_enns_dictionary_results.csv", row.names = FALSE)
+#write.csv(out, file="output/levay_enns_dictionary_results.csv", row.names = FALSE)
 
 
 one_mention_by_year <- d[ , 100*sum(one_mention*weight)/sum(weight), by=key(d)]

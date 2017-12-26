@@ -119,41 +119,9 @@ texts[ , dict_ineq := ifelse(explicit|implicit, "inequality", "not inequality")]
 texts[ , hand_ineq := ifelse(five_code %in% c("explicit", "implicit"), 
                              "inequality", "not inequality")]
 
-# Make table of the proportion of articles that meet the dictionary "explicit"
-# and "implicit" criteria by hand-coded category
-dict_by_hand_coding <- texts[ , .("Proportion Explicit"=sum(dict_explicit=="explicit")/.N, 
-                                  "Proportion Implicit"=sum(dict_implicit=="implicit")/.N, 
-                                  "Proportion Explicit AND Implicit"=
-                                      sum(dict_explicit=="explicit" & dict_implicit=="implicit")/.N, 
-                                  "Proportion Explicit OR Implicit"=
-                                      sum(dict_explicit=="explicit" | dict_implicit=="implicit")/.N),
-                              by=five_code]
-
-dict_by_hand_coding_table <- t(as.matrix(dict_by_hand_coding[ , 2:5, with=FALSE]))
-colnames(dict_by_hand_coding_table) <- dict_by_hand_coding$five_code
-dict_by_hand_coding_table <- dict_by_hand_coding_table[ , c("explicit", 
-                                                            "implicit", 
-                                                            "relchanges", 
-                                                            "releconomy",
-                                                            "irrelevant")]
-
-write.csv(dict_by_hand_coding_table, file="output/mccall_dict_ppn_by_hand_code_category.csv")
 
 # Create metrics tables comparing:
-# Explicit dict to explicit hand-coding
-# Implicit dict to explicit hand-coding
 # Explicit or implicit dict to explicit or implicit hand-coding
-explicit_explicit_table <- get_accuracy_mtrx(texts, texts$dict_explicit, 
-                                             texts$hand_explicit, 
-                                             c("not explicit", "explicit"))
-
-write.csv(explicit_explicit_table, file="output/mccall_dict_explicit_metrics.csv")
-
-implicit_implicit_table <- get_accuracy_mtrx(texts, texts$dict_implicit, 
-                                             texts$hand_implicit, 
-                                             c("not implicit", "implicit"))
-
-write.csv(implicit_implicit_table, file="output/mccall_dict_implicit_metrics.csv")
 
 ineq_ineq_table <- get_accuracy_mtrx(texts, texts$dict_ineq, texts$hand_ineq, 
                                      c("not inequality", "inequality"))
