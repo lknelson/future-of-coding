@@ -24,7 +24,7 @@ train_model_and_classify_test_set_with_it = function(container, algorithm, trset
         else {
             model = 0
             cat("Training model... ")
-            try(model <- train_model(container, algorithm))
+            try(model <- train_model(container, algorithm, MaxNWts=11000))
             if(class(model)=="numeric") return(NA)
             save(model, file=paste0("trained_models/", saved_trained_model))
         }
@@ -76,7 +76,7 @@ data.table(read.csv("data/final_fixed_w_trsets_and_codes.csv",
 stringsAsFactors=FALSE))
     text_matrix = create_matrix(newsweekly_articles$text, minWordLength=1, 
                                 stemWords=FALSE, removePunctuation=TRUE, removeStopwords=TRUE,
-                                weighting=tm::weightTfIdf, removeSparseTerms=.99)
+                                weighting=tm::weightTfIdf, removeSparseTerms=.995)
     save(newsweekly_articles, text_matrix, file="data/newsweekly_articles_and_text_matrix.Rdata")
 }
 

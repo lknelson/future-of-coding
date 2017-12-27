@@ -24,7 +24,7 @@ train_model_and_classify_test_set_with_it = function(container, algorithm, trset
         else {
             model = 0
             cat("Training model... ")
-            try(model <- train_model(container, algorithm))
+            try(model <- train_model(container, algorithm, MaxNWts=11000))
             if(class(model)=="numeric") return(NA)
             save(model, file=paste0("trained_models/", saved_trained_model))
         }
@@ -84,9 +84,7 @@ list_of_classification_results_from_each_training_set = vector(mode="list", leng
 
 matrix_of_trainingsets = apply(as.matrix(newsweekly_articles)[ , grep("trset_", names(newsweekly_articles))], 2, as.integer)
 
-algorithms = list("SVM", 
-                  #"SLDA", 
-                  "BOOSTING", "BAGGING", "RF", "GLMNET", "TREE", "NNET", "MAXENT")
+algorithms = list("SVM", "SLDA", "BOOSTING", "BAGGING", "RF", "GLMNET", "TREE", "NNET", "MAXENT")
 
 for(i in 1:25) {
     dir.create(paste0("results/trset_", i), showWarnings = FALSE)
