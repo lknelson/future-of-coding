@@ -4,7 +4,7 @@ library(data.table)
 library(stringr)
 
 cur_dir <- getwd()
-setwd("01-SupervisedMachineLearning/rtexttools")
+setwd("01-SupervisedMachineLearning/rtexttools/relevant_vs_irrelevant")
 
 # create functions
 train_model_and_classify_test_set_with_it = function(container, algorithm, trset_name) {

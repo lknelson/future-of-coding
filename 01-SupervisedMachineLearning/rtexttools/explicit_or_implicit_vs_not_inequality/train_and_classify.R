@@ -3,6 +3,9 @@ library(RTextTools)
 library(data.table)
 library(stringr)
 
+cur_dir <- getwd()
+setwd("01-SupervisedMachineLearning/rtexttools")
+
 # create functions
 train_model_and_classify_test_set_with_it = function(container, algorithm, trset_name) {
     cat(paste0(trset_name, " ", algorithm, ": "))
@@ -99,3 +102,5 @@ for(i in 1:25) {
 }
 
 save(list_of_classification_results_from_each_training_set, file="results/classification_results_all_training_sets.Rdata")
+
+setwd(cur_dir)
