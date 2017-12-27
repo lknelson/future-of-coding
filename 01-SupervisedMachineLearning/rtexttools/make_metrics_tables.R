@@ -1,8 +1,8 @@
 library(data.table)
 
-source("functions/get_accuracy_mtrx.r")
-source("functions/load_results_and_create_summary_matrix.r")
-source("functions/load_results_and_create_single_matrix.r")
+source("functions/get_accuracy_mtrx.R")
+source("functions/load_results_and_create_summary_matrix.R")
+source("functions/load_results_and_create_single_matrix.R")
 
 binary1_summary_mtrx <- load_results_and_create_summary_matrix(
     "binary1big/results/classification_results_all_training_sets.Rdata", 

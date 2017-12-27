@@ -3,6 +3,9 @@ library(RTextTools)
 library(data.table)
 library(stringr)
 
+cur_dir <- getwd()
+setwd("01-SupervisedMachineLearning/rtexttools/inequality_vs_economic_vs_irrelevant")
+
 # create functions
 train_model_and_classify_test_set_with_it = function(container, algorithm, trset_name) {
     cat(paste0(trset_name, " ", algorithm, ": "))
@@ -37,7 +40,7 @@ train_model_and_classify_test_set_with_it = function(container, algorithm, trset
 }
 
 # I had to modify the classify_model function because of problems arising with the NNET procedure when there are only 2 categories
-load("functions/modified_classify_model.Rdata")
+load("../functions/modified_classify_model.Rdata")
 
 # Don't use this, because we are sticking to built-in options, just use built-in punctuation remover
 remove_punctuation <- function(texts) {
@@ -65,16 +68,16 @@ remove_common_words <- function(text_matrix, maxDocFrequency=.95) {
 # run main program
 
 # here we load/create the main dataset and text_matrix in tandem to ensure that the articles are in the same order in each
-if("newsweekly_articles_and_text_matrix.Rdata" %in% list.files("data")) {
-    load("data/newsweekly_articles_and_text_matrix.Rdata") # loads objects "newsweekly_articles" and "text_matrix"
+if("newsweekly_articles_and_text_matrix.Rdata" %in% list.files("../data")) {
+    load("../data/newsweekly_articles_and_text_matrix.Rdata") # loads objects "newsweekly_articles" and "text_matrix"
 } else {
     newsweekly_articles = 
-data.table(read.csv("data/final_fixed_w_trsets_and_codes.csv", 
+data.table(read.csv("../data/final_fixed_w_trsets_and_codes.csv", 
 stringsAsFactors=FALSE))
     text_matrix = create_matrix(newsweekly_articles$text, minWordLength=1, 
                                 stemWords=FALSE, removePunctuation=TRUE, removeStopwords=TRUE,
                                 weighting=tm::weightTfIdf, removeSparseTerms=.995)
-    save(newsweekly_articles, text_matrix, file="data/newsweekly_articles_and_text_matrix.Rdata")
+    save(newsweekly_articles, text_matrix, file="../data/newsweekly_articles_and_text_matrix.Rdata")
 }
 
 list_of_classification_results_from_each_training_set = vector(mode="list", length=25)
@@ -99,3 +102,5 @@ for(i in 1:25) {
 }
 
 save(list_of_classification_results_from_each_training_set, file="results/classification_results_all_training_sets.Rdata")
+
+setwd(cur_dir)
