@@ -73,7 +73,7 @@ data.table(read.csv("data/final_fixed_w_trsets_and_codes.csv",
 stringsAsFactors=FALSE))
     text_matrix = create_matrix(newsweekly_articles$text, minWordLength=1, 
                                 stemWords=FALSE, removePunctuation=TRUE, removeStopwords=TRUE,
-                                weighting=tm::weightTfIdf, removeSparseTerms=.99)
+                                weighting=tm::weightTfIdf, removeSparseTerms=.995)
     save(newsweekly_articles, text_matrix, file="data/newsweekly_articles_and_text_matrix.Rdata")
 }
 
@@ -81,13 +81,15 @@ list_of_classification_results_from_each_training_set = vector(mode="list", leng
 
 matrix_of_trainingsets = apply(as.matrix(newsweekly_articles)[ , grep("trset_", names(newsweekly_articles))], 2, as.integer)
 
-algorithms = list("SVM", "SLDA", "BOOSTING", "BAGGING", "RF", "GLMNET", "TREE", "NNET", "MAXENT")
+algorithms = list("SVM", 
+                  #"SLDA", 
+                  "BOOSTING", "BAGGING", "RF", "GLMNET", "TREE", "NNET", "MAXENT")
 
 for(i in 1:25) {
     dir.create(paste0("results/trset_", i), showWarnings = FALSE)
     training_set = which(matrix_of_trainingsets[ , i] == 1)
     test_set = which(matrix_of_trainingsets[ , i] == 0)
-    label_variable = newsweekly_articles$binary1
+    label_variable = newsweekly_articles$binary2
     container = create_container(text_matrix, labels = label_variable, trainSize = training_set, testSize = test_set, virgin=FALSE)
     classification_results = lapply(algorithms, function(a) train_model_and_classify_test_set_with_it(container, a, paste0("trset_", i)))
     classification_results = Filter(is.data.table, classification_results) # remove NAs from models that didn't converge
