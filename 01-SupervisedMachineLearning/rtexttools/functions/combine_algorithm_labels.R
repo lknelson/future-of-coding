@@ -77,7 +77,7 @@ combine_algorithm_labels <- function(results_datatable, tie_break_order) {
     if(length(setdiff(results_datatable$NNET_LABEL, results_datatable$label)) > 0) {
         nnet_labels <- levels(factor(results_datatable$NNET_LABEL))
         correct_labels <- levels(factor(results_datatable$label))
-        results_datatable[ , NNET_LABEL := recode(NNET_LABEL, paste0(nnet_labels, "='", correct_labels, "'", collapse="; "))]       
+        results_datatable[ , NNET_LABEL := car::recode(NNET_LABEL, paste0(nnet_labels, "='", correct_labels, "'", collapse="; "))]       
     }
     
     
