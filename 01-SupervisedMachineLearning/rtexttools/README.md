@@ -9,7 +9,7 @@ Analysis scripts needed (all in "01-SupervisedMachineLearning/rtexttools/"):
 - "make_time_trend_spreadsheet.R"
 - "compute_rtexttools_2yr_ma.R"
 
-The training of machine learning models and classification of articles based on those models occurs in the scripts named "train_and_classify.R", one each in the directories "inequality_vs_economic_vs_irrelevant", "inequality_vs_not_inequality", and "relevant_vs_irrelevant". These scripts generate an output file "results/classification_results_all_training_sets.Rdata", each in its respective directory. Those output files are used to calculate the results found in the paper, as described below.
+The training of machine learning models and classification of articles based on those models occurs in the scripts named "train_and_classify.R", one each in the directories "inequality_vs_economic_vs_irrelevant", "inequality_vs_not_inequality", and "relevant_vs_irrelevant". These scripts each generate an output file "results/classification_results_all_training_sets.Rdata", each in its respective directory. Those output files are used to calculate the results found in the paper, as described below.
 
 ## Figures 3, 4, and 5
 
