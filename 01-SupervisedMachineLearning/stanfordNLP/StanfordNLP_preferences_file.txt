@@ -1,0 +1,18 @@
+testFile=test_set.txt
+trainFile=training_set.txt
+serializeTo=classif2
+useNB=false
+goldAnswerColumn=18
+displayedColumn=9
+3.useSplitWords=true
+3.splitWordsTokenizerRegexp=M[ -`]{60} |[\\p{L}][\\p{L}0-9]*|(?:\\$ ?)?[0-9]+(?:\\.[0-9]{2})?%?|\\s+|[\\x80-\\uFFFD]|.
+3.splitWordsIgnoreRegexp=M[ -`]{60} |\\s+|[\\x80-\\uFFFD]|(?i:a|an|the|in|on|to|for|and|is|of|it|be|of|and|that|have|if|for|not|he|as|do|at|this|but|his|by|from|they|we|say|her|she|or|an|will|my|one|all|would|there|their|what|so|up|out|if|about|who|get|which|go|with)\\s+|\\p{P}
+3.lowercase=true
+csvInput=false
+printClassifier=Highweight
+printTo=INEQUALITYOUTPUT_BIN1.txt
+
+#Was run over multiple test and training sets by adjusting the values for each test and training file. 
+#testFile= ./trset_10/test.txt
+#trainFile=./trset_10/training.txt
+#For generating year-level estimates, produce test files for the desired years. Then, adjust testFile=test_set.txt to reflect the new filenames.
