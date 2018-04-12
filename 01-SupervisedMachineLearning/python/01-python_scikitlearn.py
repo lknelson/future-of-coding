@@ -54,7 +54,7 @@ def print_metrics(pipeline, data_folder, test_size = 0.25):
               print("%s:    %s" % (class_label,
                     ", ".join(vect.get_feature_names()[j] for j in topt)))
  
-sh_dataset = pandas.read_csv("../final_dataset.csv")
+sh_dataset = pandas.read_csv("../../data/final_dataset.csv")
 
 #df_tc = sh_dataset
 #sh_dataset = sh_dataset
